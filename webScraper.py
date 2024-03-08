@@ -1,3 +1,6 @@
+import re
+import requests
+
 print('hola mundo')
 
 def sum(a, b):
