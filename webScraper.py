@@ -1,11 +1,8 @@
 import re
 import requests
 
-print('hola mundo')
+website = 'https://quotes.toscrape.com/'
+result = requests.get(website)
+content = result.text
 
-def sum(a, b):
-    return a + b
-
-result = sum(1, 2)
-
-print(result)
+print(content)
